@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 /* nav section style start here */
 .nav-container {
     /* border: 1px solid red; */
@@ -19,12 +20,62 @@
     font-size: 24px;
     font-weight: 700;
 }
-.nav-list-content{
+
+.nav-list-content {
     width: 50%;
     display: flex;
     justify-content: space-around;
 }
-.nav-list-content a{
+
+.nav-list-content a {
     text-decoration: none;
 }
+
 /* nav section style end here */
+.banner-container {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin: 0px 120px;
+
+}
+
+.banner-content {
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.banner-description {
+    color: #3A3A3A;
+}
+
+.banner-btn {
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.banner-img {
+    /* border: 2px solid tomato; */
+    width: 50%;
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-main-img {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: auto;
+}

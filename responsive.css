@@ -1,17 +1,40 @@
 /* mobile divice responsive */
 @media screen and (max-width: 576px) {
+
     /* nav section responsive  */
-    .nav-container, .nav-list-content{
+    .nav-container,
+    .nav-list-content {
         flex-direction: column;
         margin: 10px;
     }
-    .nav-title, .nav-list-content{
+
+    .nav-title,
+    .nav-list-content {
         width: 100%;
         text-align: center;
     }
-    .nav-list-content{
+
+    .nav-list-content {
         font-size: 20px;
         gap: 20px;
     }
+
     /* nav section responsive end here  */
+
+    /* banner section responsive start here  */
+    .banner-container {
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+
+    .banner-content {
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .banner-btn {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
 }
